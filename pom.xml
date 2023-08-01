@@ -11,8 +11,8 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.bootcamp</groupId>
-    <artifactId>bootcamp</artifactId>
+    <groupId>by.bootcamp</groupId>
+    <artifactId>bootcamp2</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
