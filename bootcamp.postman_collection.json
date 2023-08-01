@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "b5f64996-4d98-46aa-a05d-bebc71af7fac",
+		"name": "bootcamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "22744839"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"surname\": \"surname\",\r\n  \"name\": \"name\",\r\n  \"patronymic\": \"patronymic\",\r\n  \"email\": \"user.123@gmail.com\",\r\n  \"role\": \"Customer_User\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/users",
+				"description": "Add new User"
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/",
+				"description": "Get all users with paging"
+			},
+			"response": []
+		},
+		{
+			"name": "GET with wrong param",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/gfhgh",
+				"description": "Get all users with paging"
+			},
+			"response": []
+		}
+	]
+}
