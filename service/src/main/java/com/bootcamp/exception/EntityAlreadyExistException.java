@@ -1,4 +1,4 @@
-package by.bootcamp.exception;
+package com.bootcamp.exception;
 
 public class EntityAlreadyExistException extends RuntimeException {
 

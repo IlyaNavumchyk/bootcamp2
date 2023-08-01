@@ -1,4 +1,4 @@
-package by.bootcamp.aop;
+package com.bootcamp.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class ServiceLoggingAspect {
 
-    @Pointcut("within(by.bootcamp.service..*)")
+    @Pointcut("within(com.bootcamp.service..*)")
     private void servicesClasses() {
     }
 

@@ -1,4 +1,4 @@
-package by.bootcamp.domain;
+package com.bootcamp.domain;
 
 public enum UserRoles {
 

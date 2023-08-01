@@ -1,7 +1,7 @@
-package by.bootcamp.repository;
+package com.bootcamp.repository;
 
-import by.bootcamp.domain.Role;
-import by.bootcamp.domain.UserRoles;
+import com.bootcamp.domain.Role;
+import com.bootcamp.domain.UserRoles;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Integer> {

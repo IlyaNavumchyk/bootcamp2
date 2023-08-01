@@ -1,4 +1,4 @@
-package by.bootcamp.domain;
+package com.bootcamp.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Column;

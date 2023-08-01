@@ -1,7 +1,7 @@
-package by.bootcamp.service;
+package com.bootcamp.service;
 
-import by.bootcamp.domain.User;
-import by.bootcamp.domain.UserRoles;
+import com.bootcamp.domain.User;
+import com.bootcamp.domain.UserRoles;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

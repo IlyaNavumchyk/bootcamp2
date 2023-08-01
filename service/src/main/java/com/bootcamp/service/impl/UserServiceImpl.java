@@ -1,12 +1,12 @@
-package by.bootcamp.service.impl;
+package com.bootcamp.service.impl;
 
-import by.bootcamp.domain.Role;
-import by.bootcamp.domain.User;
-import by.bootcamp.domain.UserRoles;
-import by.bootcamp.exception.EntityAlreadyExistException;
-import by.bootcamp.repository.RoleRepository;
-import by.bootcamp.repository.UserRepository;
-import by.bootcamp.service.UserService;
+import com.bootcamp.domain.Role;
+import com.bootcamp.domain.User;
+import com.bootcamp.domain.UserRoles;
+import com.bootcamp.exception.EntityAlreadyExistException;
+import com.bootcamp.repository.RoleRepository;
+import com.bootcamp.repository.UserRepository;
+import com.bootcamp.service.UserService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

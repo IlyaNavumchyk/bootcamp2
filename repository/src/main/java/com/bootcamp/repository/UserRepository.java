@@ -1,6 +1,6 @@
-package by.bootcamp.repository;
+package com.bootcamp.repository;
 
-import by.bootcamp.domain.User;
+import com.bootcamp.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
