@@ -1,0 +1,38 @@
+version: "3.5"
+services:
+  mysql:
+    container_name: bootcamp-db
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: bootcamp
+      MYSQL_ROOT_PASSWORD: rootroot
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user_password
+    volumes:
+      - bootcamp-db:/var/lib/mysql
+    networks:
+      - bootcamp
+  app:
+    container_name: bootcamp-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      - spring.datasource.url=jdbc:mysql://bootcamp-db:3306/bootcamp
+      - spring.datasource.username=user
+      - spring.datasource.password=user_password
+    ports:
+      - "8080:8080"
+    networks:
+      - bootcamp
+    depends_on:
+      - mysql
+
+
+volumes:
+  bootcamp-db:
+
+networks:
+  bootcamp:
