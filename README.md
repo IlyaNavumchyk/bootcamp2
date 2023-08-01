@@ -73,7 +73,7 @@ page_number - номер страницы, опциональный параме
 + [LocalHost](http://localhost:8080/)
 + [SwaggerUI](http://localhost:8080/swagger-ui/index.html)
 + [Postman](bootcamp.postman_collection.json) 
-(вы можете загрузить готовую коллекцию запросов)
+(вы можете загрузить готовую коллекцию запросов `bootcamp.postman_collection.json`)
 
 ## Технологии
 - Java 17
