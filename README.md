@@ -40,6 +40,7 @@ page_number - номер страницы, опциональный параме
 
 ### Необходимо иметь:
 - JDK 17+
+- Git
 - Mysql 8 (опционально без Docker)
 - Docker/Docker Compose (опционально без Mysql)
 
