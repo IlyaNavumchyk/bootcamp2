@@ -1,1 +1,1 @@
-java -jar controller/target/controller2-1.0.0-SNAPSHOT.jar
+.\mvnw clean install && java -jar controller/target/controller2-1.0.0-SNAPSHOT.jar
